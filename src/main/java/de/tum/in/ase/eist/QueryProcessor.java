@@ -20,7 +20,6 @@ public class QueryProcessor {
         // 0    1  2 3    4
         //which of the following numbers is the largest: 76, 135
         // 0    1   2   3         4      5   6   7       8   9
-
         if(query.startsWith("what is")) {
             return String.valueOf( (Integer.parseInt(queryList.get(2)) + Integer.parseInt(queryList.get(4))) );
         } else if (query.startsWith("which of")) {
